@@ -4,7 +4,7 @@ extern "C" {
     #include "crypto/Lyra2RE.h"
 }
 
-NAN_METHOD(digest) {
+NAN_METHOD(hash) {
     if (info.Length() != 1){
         Nan::ThrowError("You must provide exactly one argument.");
         return;
@@ -30,7 +30,7 @@ NAN_METHOD(digest) {
 }
 
 NAN_MODULE_INIT(init) {
-    NAN_EXPORT(target, digest);
+    NAN_EXPORT(target, hash);
 }
 
-NODE_MODULE(lyra2re2hash, init)
+NODE_MODULE(lyra2re2_hash, init)
