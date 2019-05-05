@@ -33,4 +33,4 @@ NAN_MODULE_INIT(init) {
     NAN_EXPORT(target, hash);
 }
 
-NODE_MODULE(lyra2re2_hash, init)
+NODE_MODULE(lyra2re2hash, init)
