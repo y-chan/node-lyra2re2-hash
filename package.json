@@ -1,7 +1,7 @@
 {
-    "name": "node-lyra2re2-hash",
-    "version": "0.0.1",
-    "main": "lyra2re2hash",
+    "name": "lyra2re2-hash",
+    "version": "0.0.2",
+    "main": "lyra2re2_hash",
     "scripts": {
         "test": "node test/test.js"
     },
@@ -11,7 +11,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/squbs/node-lyra2re2-hash.git"
+        "url": "https://github.com/y-chan/node-lyra2re2-hash.git"
     },
     "dependencies": {
         "bindings": "*",
