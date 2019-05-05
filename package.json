@@ -1,7 +1,7 @@
 {
     "name": "lyra2re2-hash",
     "version": "0.0.2",
-    "main": "lyra2re2_hash",
+    "main": "lyra2re2hash",
     "scripts": {
         "test": "node test/test.js"
     },
